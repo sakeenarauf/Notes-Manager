@@ -17,7 +17,7 @@ def add_note():
     
     # Check if the user just pressed Enter without typing anything
     if note == "":
-        print("⚠ Cannot save an empty note.")
+        print(" Cannot save an empty note.")
         return
 
     # "a" opens the file in APPEND mode. It creates the file if it doesn't exist,
@@ -29,7 +29,7 @@ def add_note():
 def view_notes():
     # Check if file exists first
     if not os.path.exists(FILENAME):
-        print("\n📭 No notes found. Start by adding one!")
+        print("\n No notes found. Start by adding one!")
         return
 
     print("\n--- Your Saved Notes ---")
@@ -56,7 +56,7 @@ def main():
             print("\nGoodbye! Thanks for using Notes Manager.")
             break
         else:
-            print("⚠ Invalid choice. Please select 1, 2, or 3.")
+            print(" Invalid choice. Please select 1, 2, or 3.")
 
 if __name__ == "__main__":
     main()
