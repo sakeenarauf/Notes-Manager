@@ -24,7 +24,7 @@ def add_note():
     # or adds text to the end of it if it does.
     with open(FILENAME, "a") as file:
         file.write(note + "\n")
-    print("✓ Note saved successfully!")
+    print("Note saved successfully!")
 
 def view_notes():
     # Check if file exists first
