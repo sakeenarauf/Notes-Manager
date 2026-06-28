@@ -3,4 +3,4 @@
  ## Key Features :
  Add Notes: Instantly appends a new note to a local `notes.txt` file. It keeps your previous notes completely safe.
  View Saved Notes: Displays all your notes in a clean, numbered sequence so you can easily track them.
- Building this application helped me strengthen my foundations in File Handling in Python.
+ ## Building this application helped me strengthen my foundations in File Handling in Python.
